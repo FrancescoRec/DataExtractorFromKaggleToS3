@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kaggletos3_uploader"
+version = "0.1.0"
+description = "An application to download kaggle datasets and upload them to an s3 bucket"
+authors = ["Francesco <francesco.daleo@bts.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.34.34"
+kaggle = "^1.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
