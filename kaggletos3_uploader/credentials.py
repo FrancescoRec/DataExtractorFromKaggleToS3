@@ -6,4 +6,4 @@ class Credentials():
         self.kaggle_username = "..."
         self.kaggle_key = "..."
         self.s3_bucket_name = "..."  
-        self.s3_directory_name = "...."
+        self.s3_directory_name = "..."
