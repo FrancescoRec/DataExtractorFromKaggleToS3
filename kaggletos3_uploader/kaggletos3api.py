@@ -20,7 +20,7 @@ s3 = boto3.client('s3')
 
 # Specify the datasets you want to download from Kaggle (these are example)
 datasets = [
-    'rtatman/digidb'
+    'rtatman/digidb',
     'juniorbueno/opencv-facial-recognition-lbph'
     # 'kmader/skin-cancer-mnist-ham10000'
 
